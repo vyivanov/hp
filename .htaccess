@@ -1,7 +1,4 @@
 RewriteEngine on
 
-RewriteCond %{HTTP_HOST} ^v-u-ivanov\.com
-RewriteRule ^(.*)$ http://www.v-u-ivanov.com/$1 [R=permanent,L]
-
 RewriteCond %{HTTP_HOST} ^vova-ivanov\.info
 RewriteRule ^(.*)$ http://www.vova-ivanov.info/$1 [R=permanent,L]
