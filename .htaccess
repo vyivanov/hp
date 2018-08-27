@@ -1,4 +1,4 @@
-RewriteEngine on
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-RewriteCond %{HTTP_HOST} ^vova-ivanov\.info
-RewriteRule ^(.*)$ http://www.vova-ivanov.info/$1 [R=permanent,L]
