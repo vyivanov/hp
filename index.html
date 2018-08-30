@@ -11,64 +11,68 @@
     </head>
     <body>
         <div class="container">
-            <div class="header">
-                <center><h3><strong>Vladimir Yu. Ivanov</strong></h3>EECS Engineer</center>
+            <!-- header -->
+            <div class="header" align="center">
+                <h3><strong>Vladimir Yu. Ivanov</strong></h3>EECS Engineer
             </div><br />
-            <!-- social contacts -->
+            <!-- cv -->
             <div class="row">
                 <div class="col-lg-4">
-                    <!-- dummy -->
+                    <!-- empty -->
                 </div>
                 <div class="col-lg-4">
-                    <!-- <a href="Vladimir.Ivanov.CV.pdf?" onclick="this.href=this.href.split('?')[0]+'?'+new Date().getTime()" class="thumbnail" target="blank"><img src="imgs/cv-icon.png" alt="" width="90" height="90" /></a> -->
-                    <a href="#" class="thumbnail"><img src="imgs/cv-icon.png" alt="" width="90" height="90" /></a>
+                    <a href="#" class="thumbnail"><img src="imgs/cv-logo.png" alt="" width="80" height="80" /></a>
                 </div>
                 <div class="col-lg-4">
-                    <!-- dummy -->
-                </div>
-            </div><br />
-            <div class="row">
-                <div class="col-lg-4">
-                    <!-- dummy -->
-                </div>
-                <div class="col-lg-4">
-                    <a href="skype:v.u.ivanov?userinfo" class="thumbnail"><img src="imgs/skype-icon.png" alt="" width="80" height="80" /></a>
-                </div>
-                <div class="col-lg-4">
-                    <!-- dummy -->
+                    <!-- empty -->
                 </div>
             </div><br />
+            <!-- skype -->
             <div class="row">
                 <div class="col-lg-4">
-                    <!-- dummy -->
+                    <!-- empty -->
                 </div>
                 <div class="col-lg-4">
-                    <a href="mailto:job@vova-ivanov.info" class="thumbnail"><img src="imgs/mail-icon.png" alt="" width="80" height="80" /></a>
+                    <a href="skype:v.u.ivanov?userinfo" class="thumbnail"><img src="imgs/skype-logo.png" alt="" width="80" height="80" /></a>
                 </div>
                 <div class="col-lg-4">
-                    <!-- dummy -->
+                    <!-- empty -->
                 </div>
             </div><br />
+            <!-- mail -->
             <div class="row">
                 <div class="col-lg-4">
-                    <!-- dummy -->
+                    <!-- empty -->
                 </div>
                 <div class="col-lg-4">
-                    <a href="https://github.com/vyivanov" class="thumbnail" target="blank"><img src="imgs/github-icon.png" alt="" width="80" height="80" /></a>
+                    <a href="mailto:job@vova-ivanov.info" class="thumbnail"><img src="imgs/mail-logo.png" alt="" width="80" height="80" /></a>
                 </div>
                 <div class="col-lg-4">
-                    <!-- dummy -->
+                    <!-- empty -->
                 </div>
             </div><br />
+            <!-- github -->
             <div class="row">
                 <div class="col-lg-4">
-                    <!-- dummy -->
+                    <!-- empty -->
                 </div>
                 <div class="col-lg-4">
-                    <a href="https://www.linkedin.com/in/vladimir-yu-ivanov/" class="thumbnail" target="blank"><img src="imgs/linkedin-icon.png" alt="" width="80" height="80" /></a>
+                    <a href="https://github.com/vyivanov" class="thumbnail" target="blank"><img src="imgs/github-logo.png" alt="" width="80" height="80" /></a>
                 </div>
                 <div class="col-lg-4">
-                    <!-- dummy -->
+                    <!-- empty -->
+                </div>
+            </div><br />
+            <!-- linkedin -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <!-- empty -->
+                </div>
+                <div class="col-lg-4">
+                    <a href="https://linkedin.com/in/vladimir-yu-ivanov/" class="thumbnail" target="blank"><img src="imgs/linkedin-logo.png" alt="" width="80" height="80" /></a>
+                </div>
+                <div class="col-lg-4">
+                    <!-- empty -->
                 </div>
             </div><br />
             <!-- copyrights -->
@@ -77,20 +81,31 @@
             </div>
         </div>
         <!-- Yandex.Metrika counter -->
-        <div style="display:none;">
-            <script type="text/javascript">
-                (function(w, c) {
-                    (w[c] = w[c] || []).push(function() {
-                        try {
-                            w.yaCounter9410731 = new Ya.Metrika({id:9410731, enableAll: true});
-                        }
-                        catch(e) { }
-                    });
-                })(window, "yandex_metrika_callbacks");
-            </script>
-        </div>
-        <script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript" defer="defer"></script>
-        <noscript><div><img src="//mc.yandex.ru/watch/9410731" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+            (function (d, w, c) {
+                (w[c] = w[c] || []).push(function() {
+                    try {
+                        w.yaCounter9410731 = new Ya.Metrika({
+                            id:9410731,
+                            clickmap:true,
+                            trackLinks:true,
+                            accurateTrackBounce:true,
+                            webvisor:true
+                        });
+                    } catch(e) { }
+                });
+                var n = d.getElementsByTagName("script")[0],
+                    s = d.createElement("script"),
+                    f = function () { n.parentNode.insertBefore(s, n); };
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = "https://mc.yandex.ru/metrika/watch.js";
+                if (w.opera == "[object Opera]") {
+                    d.addEventListener("DOMContentLoaded", f, false);
+                } else { f(); }
+            })(document, window, "yandex_metrika_callbacks");
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/9410731" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
     </body>
 </html>
