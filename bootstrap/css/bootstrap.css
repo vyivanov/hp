@@ -375,7 +375,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #0e0e0e;
+  border-top: 1px solid #eeeeee;
 }
 
 .sr-only {
@@ -491,23 +491,11 @@ h3 {
   margin-bottom: 10px;
 }
 
-h1 small,
-h2 small,
-h3 small {
-  font-size: 65%;
-}
-
 h4,
 h5,
 h6 {
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-h4 small,
-h5 small,
-h6 small {
-  font-size: 75%;
 }
 
 h1,
@@ -538,6 +526,23 @@ h5,
 h6,
 .h6 {
   font-size: 12px;
+}
+
+h1 small,
+.h1 small {
+  font-size: 24px;
+}
+
+h2 small,
+.h2 small {
+  font-size: 18px;
+}
+
+h3 small,
+.h3 small,
+h4 small,
+.h4 small {
+  font-size: 14px;
 }
 
 .page-header {
@@ -1517,8 +1522,7 @@ table th[class*="col-"] {
 
 .table-hover > tbody > tr > td.success:hover,
 .table-hover > tbody > tr > th.success:hover,
-.table-hover > tbody > tr.success:hover > td,
-.table-hover > tbody > tr.success:hover > th {
+.table-hover > tbody > tr.success:hover > td {
   background-color: #d0e9c6;
   border-color: #c9e2b3;
 }
@@ -1541,8 +1545,7 @@ table th[class*="col-"] {
 
 .table-hover > tbody > tr > td.danger:hover,
 .table-hover > tbody > tr > th.danger:hover,
-.table-hover > tbody > tr.danger:hover > td,
-.table-hover > tbody > tr.danger:hover > th {
+.table-hover > tbody > tr.danger:hover > td {
   background-color: #ebcccc;
   border-color: #e6c1c7;
 }
@@ -1565,8 +1568,7 @@ table th[class*="col-"] {
 
 .table-hover > tbody > tr > td.warning:hover,
 .table-hover > tbody > tr > th.warning:hover,
-.table-hover > tbody > tr.warning:hover > td,
-.table-hover > tbody > tr.warning:hover > th {
+.table-hover > tbody > tr.warning:hover > td {
   background-color: #faf2cc;
   border-color: #f8e5be;
 }
@@ -1578,8 +1580,6 @@ table th[class*="col-"] {
     overflow-x: scroll;
     overflow-y: hidden;
     border: 1px solid #dddddd;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
-    -webkit-overflow-scrolling: touch;
   }
   .table-responsive > .table {
     margin-bottom: 0;
@@ -4975,7 +4975,7 @@ a.list-group-item.active > .badge,
 
 a.thumbnail:hover,
 a.thumbnail:focus {
-  border-color: #0e0e0e;
+  border-color: #428bca;
 }
 
 .thumbnail > img {

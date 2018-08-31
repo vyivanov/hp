@@ -1,0 +1,4 @@
+a.thumbnail:hover,
+a.thumbnail:focus {
+  border-color: #0e0e0e;
+}
