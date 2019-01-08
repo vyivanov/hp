@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/vivanov
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://vova-ivanov.info
+  * I am vivanov (https://keybase.io/vivanov) on keybase.
+  * I have a public key ASDBCoQkiSKzdVzUlCD_yvha7Gzl2FB6nIlhYI4tDJrGNQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f73d8e2420be120e79db7caa514372e87e2d93590f6e795ffc75d4d0619839db0a",
+      "host": "keybase.io",
+      "kid": "0120c10a84248922b3755cd49420ffcaf85aec6ce5d8507a9c8961608e2d0c9ac6350a",
+      "uid": "962fc386a31ce7381f69105b85dfb719",
+      "username": "vivanov"
+    },
+    "merkle_root": {
+      "ctime": 1546915698,
+      "hash": "0932827e227c7c269e5a1739125b126dec62b356cec8b038e1c48b9b9ab2f0d5c31ee6425fef8260b27fe103cd5e3c24b8db59395aa74b99311bbaae87e95cb6",
+      "hash_meta": "43fa46b833892f4249ae924e53563c53791ddc179bd0d75e5ae5875103682f90",
+      "seqno": 4249348
+    },
+    "service": {
+      "entropy": "VA8JwdXq0A24rxyETkw3FZ1l",
+      "hostname": "vova-ivanov.info",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.12.6"
+  },
+  "ctime": 1546915723,
+  "expire_in": 504576000,
+  "prev": "424f46514c63b8d98ab3c3455534fcbe6690b29eed4e247aa78f33f4ce1f3603",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgwQqEJIkis3Vc1JQg/8r4Wuxs5dhQepyJYWCOLQyaxjUKp3BheWxvYWTESpcCDsQgQk9GUUxjuNmKs8NFVTT8vmaQsp7tTiR6p48z9M4fNgPEIDontXJPlCV8bXKLZJMDzNyQQK3oF/t0FtQ4PbfjqdjBAgHCo3NpZ8RAoW+UcQHk6DSxeIPCFxztwn6+Q4Srovn6uqfYRobvVj+2LtUkzS8mYJdfIPBhnhLj/1wNPMT9pU+bHuPrcMLFDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIF1CfDl3Zuiz1ptKghHIkFBnIxUAzaiMrtiMP4XNL1D9o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vivanov
+
+==================================================================
